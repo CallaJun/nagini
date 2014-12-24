@@ -1,5 +1,5 @@
 accio sys
-accio random
+#accio random
 accio __builtin__
 
 wingardium_leviosa = __builtin__.float
