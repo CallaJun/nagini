@@ -39,13 +39,13 @@ Nagini is a custom Harry Potter-themed Python. More information on how I made Na
 
         $ git clone https://github.com/amygdalama/nagini.git
 
-2. Compile intermediary Python
+2. Compile nagini Python
 
-        $ cd nagini/cpython
+        $ cd nagini/nagini-python
         $ ./configure
         $ make
 
-3. Create a symlink for the intermediary Python and add it to the `PATH`
+3. Create a symlink for the nagini Python and add it to the `PATH`
 
         $ ln -s python.exe python
         $ export PATH=$(pwd):$PATH
